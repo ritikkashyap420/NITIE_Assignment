@@ -21,5 +21,6 @@ Here, I used different machine learning and deep learning algorithms to solve th
  - Under Sampling: Randomly duplicate examples in the minority class.
  - Over Sampling: Randomly duplicate examples in the majority class.
  - SMOTE: A method that instead of simply duplicating entries creates entries that are interpolations of the minority class, as well as undersamples the majority class.
+ - SMOTETomek is a hybrid method which is a mixture of the above two methods, it uses an under-sampling method (Tomek) with an oversampling method (SMOTE). This is present within imblearn. combine module.
 
 - Implemented a simple and weighted neural network with binary CrossEntropy to classify the result.
