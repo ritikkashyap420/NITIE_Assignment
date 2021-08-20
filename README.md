@@ -22,3 +22,4 @@ Here, I used different machine learning and deep learning algorithms to solve th
  - Over Sampling: Randomly duplicate examples in the majority class.
  - SMOTE: A method that instead of simply duplicating entries creates entries that are interpolations of the minority class, as well as undersamples the majority class.
 
+- Implemented a simple and weighted neural network with binary CrossEntropy to classify the result.
