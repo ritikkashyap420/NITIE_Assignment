@@ -15,5 +15,7 @@ Here, I used different machine learning and deep learning algorithms to solve th
  - Normlalised the amount column in the dataset and removed the columns which were not of much use e.g Time.
  - Implemented the LGBM classifier on the dataset without any hyperparameter tuning.
  - Used RandomSearchCV for the hyperparameter tuning and reimplemented the model with best parameters.
+
+I read this paper for reference: http://www.techscience.com/cmc/v61n1/23107/pdf
  
 3) **Sampling + Neural Network**
