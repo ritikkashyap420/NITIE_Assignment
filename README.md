@@ -16,6 +16,6 @@ Here, I used different machine learning and deep learning algorithms to solve th
  - Implemented the LGBM classifier on the dataset without any hyperparameter tuning.
  - Used RandomSearchCV for the hyperparameter tuning and reimplemented the model with best parameters.
 
-I read this paper for reference: http://www.techscience.com/cmc/v61n1/23107/pdf
+ I used this paper on LGBM for fraud detection (for reference): http://www.techscience.com/cmc/v61n1/23107/pdf
  
 3) **Sampling + Neural Network**
