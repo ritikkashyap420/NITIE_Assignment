@@ -17,4 +17,8 @@ Here, I used different machine learning and deep learning algorithms to solve th
 
  I used this paper on LGBM for fraud detection (for reference): http://www.techscience.com/cmc/v61n1/23107/pdf
  
-3) **Sampling + Neural Network**
+3) **Sampling + Neural Network**: Since, we faced the issue of Imbalanced dataset now we will try to tackle it with different sampling methods
+ - Under Sampling: Randomly duplicate examples in the minority class.
+ - Over Sampling: Randomly duplicate examples in the majority class.
+ - SMOTE: A method that instead of simply duplicating entries creates entries that are interpolations of the minority class, as well as undersamples the majority class.
+
