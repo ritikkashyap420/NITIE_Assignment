@@ -11,7 +11,7 @@ Here, I used different machine learning and deep learning algorithms to solve th
  
 2) **Light GBM**: 
  LightGBM is a gradient boosting framework that uses tree based learning algorithms. It is designed to be distributed and efficient with the following advantages    (Faster training speed and higher efficiency, Lower memory usage, Better accuracy).
- - Normlalised the amount column in the dataset and removed the columns which were not of much use e.g Time.
+ - Normalised the amount column in the dataset and removed the columns which were not of much use e.g Time.
  - Implemented the LGBM classifier on the dataset without any hyperparameter tuning.
  - Used RandomSearchCV for the hyperparameter tuning and reimplemented the model with best parameters.
 
