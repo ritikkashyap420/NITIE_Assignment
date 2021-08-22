@@ -21,5 +21,14 @@ Here, I used different machine learning and deep learning algorithms to solve th
  - Under Sampling: Randomly duplicate examples in the minority class.
  - Over Sampling: Randomly duplicate examples in the majority class.
  - SMOTE: A method that instead of simply duplicating entries creates entries that are interpolations of the minority class, as well as undersamples the majority class.
- - SMOTETomek is a hybrid method which is a mixture of the above two methods, it uses an under-sampling method (Tomek) with an oversampling method (SMOTE). This is present within imblearn. combine module.
-- Implemented a simple and weighted neural network with binary CrossEntropy to classify the result.
+ 
+4) **ANN +  Weighted Neural Network**
+- Implemented a simple neural network with binary CrossEntropy to classify the result.
+- Since, the data is highly imbalanced so we have to intialise weight accordingly
+- Then Implemented a weighted neural network and compare the performance of Simple ANN and weightd ANN.
+
+5) **Anomaly Detection using LOF and isolation forest.**
+ - Implemented Isolation forest, LOF and SVC and comapred the model performance.
+ - Isolation Forest has a 99.74% more accurate than LOF of 99.65% and SVM of 70.09
+ - When comparing error precision & recall for 3 models , the Isolation Forest performed much better than the LOF as we can see that the detection of fraud cases is    around 27 % versus LOF detection rate of just 2 % and SVM of 0%.
+ - Used a Turkish Journal as Reference for the task. Link: https://turcomat.org/index.php/turkbilmat/article/view/7473/5991
